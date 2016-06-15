@@ -1,0 +1,168 @@
+<!--<a href ="http://www.theodinproject.com/web-development-101/html-css">Project google-homepage</a>-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google</title>
+    
+    <style type="text/css">
+    
+        * {
+            font-family: arial,sans-serif;
+        }
+        #googlecenter {
+            background-color:white;
+            margin: auto;
+            text-align:center;
+            margin-top:200px;
+            }
+        
+        #googlelogo {
+            margin-bottom:25px;
+        }
+        #searchbar {
+            border: 1px solid #e6e6e6;
+            height:35px;
+            width:445px;
+            margin-bottom:30px;
+        }
+        
+        #searchbar:focus {
+            outline:none;
+            border: 1px solid #4D90FE;
+        }
+        
+        #searchbar:hover {
+            border: 1px solid #A0A0A0;
+            
+        }
+        
+        .button {
+            text-align:center;
+            margin:auto;
+            background-color:#F6F6F6;
+            height:38px;
+            width:130px;
+            border:none;
+            display:inline-block;
+            margin-right:7px;
+            line-height:38px;
+        }
+        
+        .buttontext {
+            text-decoration:none;
+            text-align:center;
+            font-size:14px;
+            color:#737373;
+            font-weight:bold;
+           
+        }
+        
+        #lucky {
+            width:160px;
+            
+        }
+        
+        .button:hover {
+            border:1px solid #e6e6e6;
+        }
+        
+        .buttontext:hover {
+            color:black;
+        }
+        
+        #header {
+            background-color:white;
+            height:100px;
+            width:1200px;
+            margin:auto;
+            text-align:right;
+            position:absolute;
+            top:0px;
+            right:20px;
+        }
+        
+        .header_parts {
+            display:inline;
+            padding-left:10px;
+        }
+        #gmail_link {
+            background-color:white;
+            color:#737373;
+            font-size:12px;
+            text-decoration:none;
+            position:relative;
+            top:-2px;
+            
+        }
+        .gmail_link:hover {
+            color:#737373;
+            text-decoration:underine;
+        }
+        
+        #micon {
+            position:relative;
+            top:12px;
+            right:4px;
+        }
+        
+        #bell {
+            position:relative;
+            top:4px;
+        }
+        
+        #grid {
+            position:relative;
+            top:5px;
+        }
+    </style>
+</head>
+
+<body>
+        <div id="googlecenter">
+            
+            <img id="googlelogo" src="../../images/googlelogo.png"/>
+            
+            <form id>
+                <input id="searchbar" type="text" placeholder="">
+            </form>
+            
+            <div class="button">
+                <a class="buttontext" href="">Google Search</a>
+            </div>
+            
+            <div class="button" id="lucky">
+                <a class="buttontext" href="">I'm Feeling Lucky</a>
+            </div>
+        </div>
+    
+
+        <div id="header">
+            <div class="header_parts">
+            <a id="gmail_link" href="">Gmail</a>
+            </div>
+            
+            <div class="header_parts">
+            <a id="gmail_link" href="">Images</a>
+            </div>
+            
+            <div class="header_parts">
+            <a href=""><img id="grid" src="../../images/googlegrid.png"/></a>
+            </div>
+            
+            <div class="header_parts">
+            <a href=""><img id ="bell" src="../../images/googlebell.png"/></a>
+            </div>
+            
+            <div class="header_parts">
+            <a href=""><img id="micon" src="../../images/google_micon.png"/></a>
+            </div>
+    
+    
+    
+    
+        </div>
+</body>
+
+
+</html>
