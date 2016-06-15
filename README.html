@@ -25,6 +25,9 @@
             height:35px;
             width:445px;
             margin-bottom:30px;
+            background-image: url(../../images/googlevoice.png);
+            background-repeat:no-repeat;
+            background-position:right;
         }
         
         #searchbar:focus {
@@ -41,25 +44,25 @@
             text-align:center;
             margin:auto;
             background-color:#F6F6F6;
-            height:38px;
+            height:36px;
             width:130px;
             border:none;
             display:inline-block;
             margin-right:7px;
-            line-height:38px;
+            line-height:36px;
         }
         
         .buttontext {
             text-decoration:none;
             text-align:center;
-            font-size:14px;
+            font-size:13px;
             color:#737373;
             font-weight:bold;
            
         }
         
         #lucky {
-            width:160px;
+            width:145px;
             
         }
         
@@ -86,16 +89,20 @@
             display:inline;
             padding-left:10px;
         }
-        #gmail_link {
+        
+        .link {
             background-color:white;
             color:#737373;
-            font-size:12px;
             text-decoration:none;
+        }
+        
+        #gmail_link {
+            font-size:12px;
             position:relative;
             top:-2px;
-            
         }
-        .gmail_link:hover {
+        
+        .link:hover {
             color:#737373;
             text-decoration:underine;
         }
@@ -114,6 +121,46 @@
         #grid {
             position:relative;
             top:5px;
+        }
+        
+        #footer {
+            display:block;
+            background-color:#F2F2F2;
+            margin: 0 auto;
+            height:40px;
+            position:relative;
+            bottom:-300px;
+            margin-left:-8px;
+            margin-right:-8px;
+            border-top:1px solid #e6e6e6;
+            background-attachment:fixed;
+            
+        }
+        
+        .footer_parts {
+            display:inline;
+            font-size:12px;
+            text-decoration:none;
+        }
+        
+        #footer_left {
+            text-align:left;
+            position:relative;
+            left:10px;
+            float:left;
+        }
+        
+        #footer_right {
+            position:relative;
+            right:10px;
+            text-align:right;
+            float:right;
+        }
+        
+        #footerlink {
+            background-color:#F2F2F2;
+            font-size:13px;
+            padding-right:20px;
         }
     </style>
 </head>
@@ -139,11 +186,11 @@
 
         <div id="header">
             <div class="header_parts">
-            <a id="gmail_link" href="">Gmail</a>
+            <a class="link" id="gmail_link" href="">Gmail</a>
             </div>
             
             <div class="header_parts">
-            <a id="gmail_link" href="">Images</a>
+            <a class="link" id="gmail_link" href="">Images</a>
             </div>
             
             <div class="header_parts">
@@ -158,9 +205,42 @@
             <a href=""><img id="micon" src="../../images/google_micon.png"/></a>
             </div>
     
+        </div>
     
-    
-    
+        <div id="footer">
+            <div id="footer_left">
+
+                <div class="footer_parts">
+                <a class="link" id="footerlink" href="">Advertising</a>
+                </div>
+                
+                <div class="footer_parts">
+                <a class="link" id="footerlink" href="">Business</a>
+                </div>
+                
+                <div class="footer_parts">
+                <a class="link" id="footerlink" href="">About</a>
+                </div>
+            
+            
+            </div>
+            
+            <div id="footer_right">
+            
+                 <div class="footer_parts">
+                <a class="link" id="footerlink" href="">Privacy</a>
+                </div>
+                
+                <div class="footer_parts">
+                <a class="link" id="footerlink" href="">Terms</a>
+                </div>
+                
+                <div class="footer_parts">
+                <a class="link" id="footerlink" href="">Settings</a>
+                </div>
+            
+            </div>
+
         </div>
 </body>
 
